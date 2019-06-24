@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+}
+
+.btn {
+  -webkit-appearance: none;
+  border-radius: 10px;
+  display: block;
+  background: #25c561;
+  color: #fff;
+  padding: 20px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttonWrap .btn {
+  width: calc(50% - 20px);
+  margin: 10px;
+}
