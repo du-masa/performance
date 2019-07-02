@@ -19,13 +19,10 @@ const hardLoop = () => {
 document.getElementById("addElement").addEventListener("click", addListItem);
 document.getElementById("hardLoop").addEventListener("click", hardLoop);
 
-window.addEventListener("scroll", () => {
-  console.log("affa");
-});
-
 var x = [];
 
 function grow() {
+  console.log(window.innerWidth);
   x.push(new Array(1000000).join('x'));
 }
 
